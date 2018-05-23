@@ -12,7 +12,7 @@ public class main {
 			//edc.getConnection();
 			//udet.checkTable();			
 			//udet.registerUser('P', "oaae123", "one", "one");
-			//udet.getAllUserDetail();
+			udet.getAllUserDetail();
 			//udet.validateUser("one123");
 			//udet.deleteUser("one123");
 		} catch (Exception e) {
