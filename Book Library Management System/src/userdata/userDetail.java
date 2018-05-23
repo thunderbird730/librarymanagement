@@ -50,10 +50,6 @@ public class userDetail {
 		}
 	}
 	
-	public void updateUserDetail() {
-		
-	}
-
 	public Boolean searchUser(String username) throws SQLException, Exception{
 		 Boolean val = false;
 		 Statement stmt = conn.getConnection().createStatement();
