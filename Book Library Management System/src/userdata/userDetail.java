@@ -71,6 +71,10 @@ public class userDetail {
 	    }
 	}
 	
+	public void updateUser() throws SQLException, Exception {
+		
+	}
+	
 	public void validateUser(String username) throws SQLException, Exception {
 		 Statement stmt = conn.getConnection().createStatement();
 		 ResultSet rs = stmt.executeQuery("select user,uname from librarymanagement.userdetails");
